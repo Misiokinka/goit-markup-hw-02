@@ -1,6 +1,6 @@
 body {
-    font-family: Roboto, Arial, Helvetica, sans-serif;
-    color: #2E2F42;
+    font-family: Roboto, sans-serif;
+    color: #434455;
     background-color: #FFF;
 }
 
@@ -19,6 +19,8 @@ header {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 a {
@@ -43,32 +45,38 @@ button {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.04em;
+
 }
 
-.button-primary:hover {
+.button-primary:hover,
+.button-primary:focus {
     background-color: #404BBF;
     color: #FFFFFF;
 
 }
 
 .logo {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: left;
-
     text-transform: uppercase;
+    color: #4d5ae5
 }
 
-.logo-first {
-    color: #4D5AE5;
+.logo-name-footer {
+    color: #f4f4fd;
 }
 
-.logo-second {
-    color: #2E2F42;
+.nav-link-studio {
+    color: #2e2f42
+}
+
+.nav-link-studio:hover {
+    color: #404bbf
 }
 
 .nav-list a {
@@ -78,7 +86,10 @@ button {
     letter-spacing: 0.02em;
     text-align: left;
 
+}
 
+.address-items {
+    font-style: normal;
 }
 
 .address-list a {
@@ -88,14 +99,17 @@ button {
     text-align: left;
     color: #434455;
     text-decoration: none;
-    font-style: normal;
+
 }
 
 .nav-list a:active,
-.nav-list a:focus,
-.address-list-item:active,
-.address-list-itam:focus {
-    color: #404BBF
+.nav-list a:focus {
+    color: #404BBF;
+}
+
+.address-list-item:hover,
+.address-list-item:focus {
+    color: #404bbf;
 }
 
 /* Solutions for Your Business */
@@ -112,7 +126,8 @@ button {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-
+    text-align: center;
+    text-transform: capitalize;
 }
 
 /* About project list */
@@ -127,7 +142,7 @@ button {
 .project-list-text {
     color: #434455;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
@@ -146,8 +161,10 @@ button {
 .team-title {
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.11;
+    line-height: 1.2;
     letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
 
 }
 
@@ -210,7 +227,6 @@ footer {
 
 .footer-text {
     color: #F4F4FD;
-    font-family: Roboto;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;

@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -18,23 +20,22 @@
     <header>
       <nav>
         <a class="logo" href="./index.html"
-          ><span class="logo-first">Web</span
-          ><span class="logo-second">Studio</span></a
+          >Web<span class="logo-name"></span>Studio </span></a
         >
         <ul class="nav-list">
-          <li><a href="#">Studio</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contacts</a></li>
+          <li><a class="nav-link-studio" href="./index.html">Studio</a></li>
+          <li><a href="">Portfolio</a></li>
+          <li><a href="">Contacts</a></li>
         </ul>
       </nav>
-      <address>
+      <address class="address-items">
         <ul class="address-list">
           <li>
             <a class="address-list-item" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          <li><a class="address-list-item" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
     </header>
@@ -48,7 +49,7 @@
       <section class="project-section">
         <h2 class="visually-hidden">About project list</h2>
         <ul>
-          <li>
+          <li class="project-list">
             <h3 class="project-list-title">Strategy</h3>
             <p class="project-list-text">
               Our goal is to identify the business problem to walk away with the
@@ -83,7 +84,8 @@
         <h2 class="team-title">Our Team</h2>
         <ul class="team-info-cards">
           <li>
-            <img class="team-photo"
+            <img
+              class="team-photo"
               src="./images/team/MG.jpg"
               alt="Mark Guerrero"
               width="264"
@@ -93,7 +95,8 @@
             <p class="team-specialization">Product Designer</p>
           </li>
           <li>
-            <img class="team-photo"
+            <img
+              class="team-photo"
               src="./images/team/TF.jpg"
               alt="Tom Ford"
               width="264"
@@ -103,7 +106,8 @@
             <p class="team-specialization">Frontend Developer</p>
           </li>
           <li>
-            <img class="team-photo"
+            <img
+              class="team-photo"
               src="./images/team/CG.jpg"
               alt="Camila Garcia"
               width="264"
@@ -113,7 +117,8 @@
             <p class="team-specialization">Marketing</p>
           </li>
           <li>
-            <img class="team-photo"
+            <img
+              class="team-photo"
               src="./images/team/DW.jpg"
               alt="Daniel Wilson"
               width="264"
@@ -129,7 +134,8 @@
         <h2 class="portfolio-title">Our Portfolio</h2>
         <ul class="portfolio-list">
           <li>
-            <img class="portfolio-photo"
+            <img
+              class="portfolio-photo"
               src="./images/portfolio/BA.jpg"
               alt="Banking App"
               width="360"
@@ -139,7 +145,8 @@
             <p class="portfolio-project-item">App</p>
           </li>
           <li>
-            <img class="portfolio-photo"
+            <img
+              class="portfolio-photo"
               src="./images/portfolio/CP.jpg"
               alt="Cashless Payment"
               width="360"
@@ -149,19 +156,21 @@
             <p class="portfolio-project-item">Marketing</p>
           </li>
           <li>
-            <img class="portfolio-photo"
+            <img
+              class="portfolio-photo"
               src="./images/portfolio/MA.jpg"
-              alt="Meditaion App"
+              alt="Meditation App"
               width="360"
               height="300"
             />
-            <h3 class="portfolio-project-title">Meditaion App</h3>
+            <h3 class="portfolio-project-title">Meditation App</h3>
             <p class="portfolio-project-item">App</p>
           </li>
         </ul>
         <ul>
           <li>
-            <img class="portfolio-photo"
+            <img
+              class="portfolio-photo"
               src="./images/portfolio/TS.jpg"
               alt="Taxi Service"
               width="360"
@@ -171,7 +180,8 @@
             <p class="portfolio-project-item">Marketing</p>
           </li>
           <li>
-            <img class="portfolio-photo"
+            <img
+              class="portfolio-photo"
               src="./images/portfolio/SI.jpg"
               alt="Screen Illustrations"
               width="360"
@@ -181,7 +191,8 @@
             <p class="portfolio-project-item">Design</p>
           </li>
           <li>
-            <img class="portfolio-photo"
+            <img
+              class="portfolio-photo"
               src="./images/portfolio/OC.jpg"
               alt="Online Courses"
               width="360"
@@ -195,8 +206,8 @@
     </main>
     <footer>
       <a class="logo" href="./index.html"
-        ><span class="logo-first">Web</span
-        ><span class="logo-second-footer">Studio</span></a
+        >Web
+        <span class="logo-name-footer"></span>Studio </span></a
       >
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
