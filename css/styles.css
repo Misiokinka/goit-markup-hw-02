@@ -9,7 +9,7 @@ header {
 }
 
 .visually-hidden {
-   
+
     border: 0;
     white-space: nowrap;
     clip-path: inset(100%);
@@ -18,7 +18,7 @@ header {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
-    
+
 }
 
 a {
@@ -35,7 +35,7 @@ button {
 
 .button-primary {
 
-    
+
     background-color: #4D5AE5;
     color: #FFFFFF;
     cursor: pointer;
@@ -104,8 +104,8 @@ button {
 
 }
 
-.nav-list a:active,
-.nav-list a:focus {
+.nav-link-list a:hover,
+.nav-link-list a:focus {
     color: #404BBF;
 }
 
