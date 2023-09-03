@@ -104,11 +104,11 @@ button {
 
 }
 
-.nav-link-list:hover {
+.nav-link-list li:hover {
     color: #404BBF;
 }
 
-.nav-link-list:focus {
+.nav-link-list li:focus {
     color: #404BBF;
 }
 
