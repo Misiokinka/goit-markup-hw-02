@@ -198,14 +198,11 @@ button {
     letter-spacing: 0.02em;
 }
 
-.portfolio-list-first li {
+.portfolio-list li {
     border: 1px solid #E7E9FC;
     background-color: #FFF;
 }
-.portfolio-list-second li {
-    border: 1px solid #E7E9FC;
-    background-color: #FFF;
-}
+
 .portfolio-project-title {
     font-size: 20px;
     font-weight: 500;
