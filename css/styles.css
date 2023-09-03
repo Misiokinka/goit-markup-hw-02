@@ -17,7 +17,7 @@ header {
     overflow: hidden;
     text-align: center;
     text-transform: capitalize;
-    color: #2e2f42;
+
 
 }
 
@@ -137,14 +137,15 @@ button {
 .project-list-title {
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.5;
+    line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .project-list-text {
     color: #434455;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
@@ -174,8 +175,9 @@ button {
 .team-name {
     font-size: 20px;
     font-weight: 500;
-    line-height: 0.02em;
-    letter-spacing: 0.4px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .team-specialization {
@@ -206,14 +208,16 @@ button {
 .portfolio-project-title {
     font-size: 20px;
     font-weight: 500;
-    line-height: 0.02em;
-    letter-spacing: 0.4px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
 }
 
 .portfolio-project-item {
     color: #434455;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
